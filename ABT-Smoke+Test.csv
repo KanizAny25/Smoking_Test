@@ -1,0 +1,181 @@
+case_id,title,suite,suite_id,assignee,time_spent_ms,status,finish_time,steps,steps_input_data,steps_expected_result,steps_status,comment,priority,severity,automation,type,tags,step_comments,case_parameter
+3,"Create a  New Account For all valid-Savings","New Account",4,"Kaniz Fatema Any",608849,Passed,"2023-01-03 16:28:15","1. Go to ABC Bank Login page
+2. Login as a manager
+3. Go to new Account
+4. Enter Customer Id
+5. Enter Account Type
+6. Enter Initial Deposit
+7. Click Submit
+","1. https://abc-bank.com/login
+2. manager ID:123456, Password:67890
+3. N/A
+4. 1234567
+5. Savings
+6. 500
+7. N/A
+","1. Login page show
+2. Dashboard Display
+3. New Account Page will Display
+4. System Allow input
+5. System Allow input
+6. System Allow input
+7. System Successfully Create a new Account
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed
+6. Passed
+7. Passed
+",,High,Major,"To be automated",Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. ",
+4,"Create a  New Account For all valid-Cuurent","New Account",4,"Kaniz Fatema Any",106249,Passed,"2023-01-03 16:30:03","1. Go to ABC Bank Login page
+2. Login as a manager
+3. Go to new Account
+4. Enter Customer Id
+5. Enter Account Type
+6. Enter Initial Deposit
+7. Click Submit
+","1. https://abc-bank.com/login
+2. manager ID:123456, Password:67890
+3. N/A
+4. 1234567
+5. Current
+6. 500
+7. N/A
+","1. Login page show
+2. Dashboard Display
+3. New Account Page will Display
+4. System Allow input
+5. System Allow input
+6. System Allow input
+7. System Successfully Create a new Account
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed
+6. Passed
+7. Passed
+",,High,Major,"To be automated",Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. ",
+13,"Create a  New Account For reset","New Account",4,"Kaniz Fatema Any",140238,Passed,"2023-01-03 16:32:34","1. Go to ABC Bank Login page
+2. Login as a manager
+3. Go to new Account
+4. Enter Customer Id
+5. Enter Account Type
+6. Enter Initial Deposit
+7. Click Reset
+","1. https://abc-bank.com/login
+2. manager ID:123456, Password:67890
+3. N/A
+4. 1234567
+5. Savings
+6. 500
+7. N/A
+","1. Login page show
+2. Dashboard Display
+3. New Account Page will Display
+4. System Allow input
+5. System Allow input
+6. System Allow input
+7. System Successfully clear all data
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed
+6. Passed
+7. Passed
+",,High,Major,"To be automated",Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. ",
+14,"Edit Account  For all  Valid","Edit Account",5,"Kaniz Fatema Any",57867,Passed,"2023-01-04 06:28:47","1. Go to ABC Bank Login page
+2. Login as a manager
+3. Go to Edit Account
+4. Account Number
+5. Click Submit
+","1. https://abc-bank.com/login
+2. manager ID:123456,Password:67890
+3. N/A
+4. 1234560
+5. N/A
+","1. Login page show
+2. Dashboard Display
+3. Edit Account Page will Display
+4. System Allow input
+5. System Successfully Edit a Account
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed
+",,High,Major,"To be automated",Functional,,"1. 
+2. 
+3. 
+4. 
+5. ",
+15,"Edit Account  For all  Invalid","Edit Account",5,"Kaniz Fatema Any",56000,Failed,"2023-01-04 06:31:41","1. Go to ABC Bank Login page
+2. Login as a manager
+3. Go to Edit Account
+4. Account Number
+5. Click Submit
+","1. https://abc-bank.com/login
+2. manager ID:123456,Password:67890
+3. N/A
+4. rat 1cat
+5. N/A
+","1. Login page show
+2. Dashboard Display
+3. Edit Account Page will Display
+4. System Allow input
+5. System Shows the error message for edit account
+","1. Passed
+2. Passed
+3. Passed
+4. Failed
+5. Passed
+",,Medium,Normal,"To be automated",Functional,,"1. 
+2. 
+3. 
+4. 
+5. ",
+16,"Edit Account  For Reset","Edit Account",5,"Kaniz Fatema Any",28856,Passed,"2023-01-04 06:32:37","1. Go to ABC Bank Login page
+2. Login as a manager
+3. Go to Edit Account
+4. Account Number
+5. Click Reset
+","1. https://abc-bank.com/login
+2. manager ID:123456,Password:67890
+3. N/A
+4. rat 1cat
+5. N/A
+","1. Login page show
+2. Dashboard Display
+3. Edit Account Page will Display
+4. System Allow input
+5. System Successfully clear all data
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed
+",,High,Major,"To be automated",Functional,,"1. 
+2. 
+3. 
+4. 
+5. ",
